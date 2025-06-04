@@ -937,7 +937,7 @@ At this point, you should see your crypto sentiment dashboard with data displaye
 
 You'll know you're seeing mock data if you see a notification in the browser console and at the top of your dashboard. This is perfect for development and learning purposes!
 
-**Live Example:** You can see a deployed version of this dashboard at [crypto-sentiment-demo.vercel.app](https://crypto-sentiment-demo.vercel.app)
+**Live Example:** You can see a deployed version of this dashboard at [crypto-sentiment-demo.vercel.app](https://nextjs-lunarcrush-sentimentv2.vercel.app/)
 
 ## How It Works
 
