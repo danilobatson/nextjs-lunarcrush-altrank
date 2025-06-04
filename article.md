@@ -301,7 +301,7 @@ export async function GET(request) {
    : DEFAULT_LIMIT;
 
   // Step 3: Construct the API URL with query parameters
-  const apiUrl = `${BASE_URL}coins/list/v1?sort=sentiment&limit=${limit}${
+  const apiUrl = `${BASE_URL}coins/list/v1?sort=altrank&limit=${limit}${
    desc ? '&desc=1' : ''
   }`;
 
