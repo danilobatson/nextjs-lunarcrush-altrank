@@ -263,7 +263,7 @@ export default function Home() {
 					<div className='mt-4 text-sm text-gray-400'>
 						<p>Common solutions:</p>
 						<ul className='list-disc ml-5 mt-2'>
-							<li>Check if you've added your API key to .env.local</li>
+							<li>Check if you&apos;ve added your API key to .env.local</li>
 							<li>Verify your API key is valid and not expired</li>
 							<li>Make sure your internet connection is working</li>
 						</ul>
