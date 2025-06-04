@@ -12,7 +12,7 @@ export const BASE_URL = 'https://lunarcrush.com/api4/public/';
 
 // Default display settings
 export const DEFAULT_LIMIT = 30;
-export const DEFAULT_SORT_DESCENDING = true;
+export const DEFAULT_SORT_DESCENDING = false;
 export const AVAILABLE_DISPLAY_LIMITS = [10, 20, 30, 50, 100];
 
 // Sentiment score thresholds for color coding
