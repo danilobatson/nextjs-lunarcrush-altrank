@@ -12,17 +12,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: 'Crypto Pulse Dashboard',
+	title: 'Crypto Sentiment Dashboard | Next.js + LunarCrush API',
 	description:
-		'Real-time cryptocurrency sentiment analysis dashboard powered by LunarCrush API',
-	keywords: [
-		'cryptocurrency',
-		'crypto dashboard',
-		'sentiment analysis',
-		'bitcoin',
-		'ethereum',
-		'LunarCrush',
-	],
+		'Build a real-time crypto sentiment dashboard using Next.js and the LunarCrush API. Live demo, open source code, and setup guide.',
+	openGraph: {
+		title: 'Crypto Sentiment Dashboard | Next.js + LunarCrush API',
+		description:
+			'Build a real-time crypto sentiment dashboard using Next.js and the LunarCrush API. Live demo, open source code, and setup guide.',
+		url: 'https://nextjs-lunarcrush-sentimentv2.vercel.app/',
+		images: [
+			{
+				url: 'https://nextjs-lunarcrush-sentimentv2.vercel.app/appScreenPhoto.png', 
+				width: 1200,
+				height: 630,
+				alt: 'Crypto Sentiment Dashboard Screenshot',
+			},
+		],
+		siteName: 'Crypto Sentiment Dashboard',
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Crypto Sentiment Dashboard | Next.js + LunarCrush API',
+		description:
+			'Live dashboard showing crypto sentiment using LunarCrush API and Next.js.',
+		images: [
+			'https://nextjs-lunarcrush-sentimentv2.vercel.app/appScreenPhoto.png',
+		],
+	},
 };
 
 export default function RootLayout({ children }) {
