@@ -1,7 +1,25 @@
 {
+  /*
+   * JS Config for Next.js
+   *
+   * This configuration helps with module imports and editor features.
+   * For beginners: This file enables the @ symbol to import from the root directory.
+   * Example: import { something } from '@/app/services/lunarcrush';
+   */
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
-    }
-  }
+      "@/*": [
+        "./*"
+      ] // Maps @ symbol to the root directory
+    },
+    "baseUrl": ".", // Sets the base directory for imports
+    "jsx": "react-jsx" // Specifies the JSX factory to use
+  },
+  "include": [
+    "**/*.js",
+    "**/*.jsx"
+  ], // Files to include in IDE analysis
+  "exclude": [
+    "node_modules"
+  ] // Directories to exclude from analysis
 }
